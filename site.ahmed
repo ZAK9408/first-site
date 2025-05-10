@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>موقع أحمد الشخصي</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      animation: fadeIn 1.5s ease-in-out;
+      background: white;
+      padding: 2rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #38bdf8;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0ea5e9;
+      margin: 0.5rem 0;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #334155;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 0.9rem;
+      color: #64748b;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="أحمد">
+    <h1>أهلاً بيك في موقعي</h1>
+    <p>أنا أحمد، طالب في الثانوية العامة، وده أول موقع ليا على الإنترنت. هنا هشارك أفكاري وتجربتي وأي حاجات بتهمني.</p>
+  </div>
+
+  <footer>
+    &copy; 2025 - موقع أحمد الشخصي
+  </footer>
+</body>
+</html>
